@@ -1,1 +1,1 @@
-{"gpu_support": false, "uuid": "261ba726-5650-42de-85d3-01d984fde66c", "language": "javascript", "name": "JavaScript", "base_image": "registry:docker-registry.orchest.svc.cluster.local/orchest/base-kernel-javascript:v2022.05.3"}
+{"gpu_support": false, "uuid": "261ba726-5650-42de-85d3-01d984fde66c", "language": "javascript", "name": "JavaScript", "base_image": "orchest/base-kernel-javascript:v2022.05.4"}
