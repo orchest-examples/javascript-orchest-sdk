@@ -1,0 +1,53 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "49c809c1-3e1e-4478-b212-fdedfa906bd3": {
+            "environment": "261ba726-5650-42de-85d3-01d984fde66c",
+            "file_path": "receive-data.ipynb",
+            "incoming_connections": [
+                "93b226f5-585e-4d19-9c64-617c2eca2905"
+            ],
+            "kernel": {
+                "display_name": "JavaScript",
+                "name": "javascript"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    374,
+                    312.5
+                ]
+            },
+            "parameters": {},
+            "title": "",
+            "uuid": "49c809c1-3e1e-4478-b212-fdedfa906bd3"
+        },
+        "93b226f5-585e-4d19-9c64-617c2eca2905": {
+            "environment": "261ba726-5650-42de-85d3-01d984fde66c",
+            "file_path": "send-data.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "JavaScript",
+                "name": "javascript"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    73,
+                    312.5
+                ]
+            },
+            "parameters": {},
+            "title": "",
+            "uuid": "93b226f5-585e-4d19-9c64-617c2eca2905"
+        }
+    },
+    "uuid": "4ab9b0bb-5f44-4751-9173-f6a5ddcf0831",
+    "version": "1.2.1"
+}
